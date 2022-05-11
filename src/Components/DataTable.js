@@ -6,7 +6,8 @@ const columns = [
     {field:'name', headName:'Name',width:300},
     {field:'username', headName:'userName',width:300},
     {field:'email', headName:'Email, width:', width:300},
-    {field:'address', headName:'Address',width:300}
+    {field:'address', headName:'Address',width:200},
+    {field:'phone', headName:'phone',width:300}
 ]
 const DataTable=()=>{
     const [tableData,setTableData] = useState([])
